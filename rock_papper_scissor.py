@@ -16,6 +16,7 @@ choices = ['rock', 'paper', 'scissors']
 
 def get_computer_choice():
     return random.choice(choices)
+    #jerokfcmkcd
 
 def determine_winner(user_choice, computer_choice):
     if user_choice == computer_choice:
